@@ -24,8 +24,9 @@ REQUIREMENTS
 INSTRUCTIONS
 ============
 
-1. Copy notify-listener.py and irssi-notifier.sh to your $HOME/bin/
+1. Copy notify-listener.py and irssi-notifier.sh to your /usr/local/bin/
 directory.
+   $ cp notify-listener.py irssi-notifier.sh /usr/local/bin
 
 2. Run gnome-session-properties and add an automatic launcher for
 notify-listener.py.  In very new versions of GNOME, you may need
